@@ -16,8 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('admin.index');
 });
+
 Route::get('/category', function () {
     return view('admin.product_manager.categories');
+});
+
+Route::get('/sub-category', function () {
+    return view('admin.product_manager.sub-categories');
 });
 
 require __DIR__.'/auth.php';
