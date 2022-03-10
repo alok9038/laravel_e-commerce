@@ -8,7 +8,7 @@ File: app.css
 */
 
 
-/*  
+/*
   - Google Font
   - General
   - Sidebar
@@ -22,7 +22,7 @@ File: app.css
   - Navs and Tabs
   - Background Colors
   - Authentication
-  - Buttons 
+  - Buttons
   - Pricing Table
   - Forms
   - Responsive
@@ -237,7 +237,7 @@ a {
 
 
 	background-clip: border-box;
-	
+
 
 	z-index: 10;
 
@@ -607,17 +607,10 @@ a {
 
 
 .sidebar-wrapper .metismenu .mm-active>a {
-
-
-	color: #0d6efd;
-
-
-	text-decoration: none;
-
-
-	background: rgb(13 110 253 / 0.12)
-
-
+    color: #088178;
+    text-decoration: none;
+    background: rgb(8 129 120 / 20%);
+    border-radius: 5px;
 }
 
 
@@ -876,7 +869,7 @@ a {
 .dash-wrapper {
 
     margin: -1.5rem -1.5rem -5.5rem -1.5rem;
-	
+
     padding: 1.5rem 1.5rem 6.5rem 1.5rem;
 
 }
@@ -1243,7 +1236,15 @@ a {
 .theme-icons {
 
 
-	background-color: #FFF;
+	background-color: #088178;
+
+
+}
+
+.theme-color {
+
+
+	color: #088178!important;
 
 
 }
@@ -3772,7 +3773,7 @@ a {
 .circles {
 	margin-bottom: -10px;
   }
-  
+
   .circle {
 	width: 100px;
 	margin: 0;
@@ -3781,11 +3782,11 @@ a {
 	text-align: center;
 	line-height: 1.2;
   }
-  
+
   .circle canvas {
 	vertical-align: middle;
   }
-  
+
   .circle strong {
 	position: absolute;
 	top: 30px;
@@ -3795,13 +3796,13 @@ a {
 	line-height: 40px;
 	font-size: 24px;
   }
-  
+
   .circle strong i {
 	font-style: normal;
 	font-size: 0.6em;
 	font-weight: normal;
   }
-  
+
   .circle span {
 	display: block;
 	color: #aaa;
@@ -4263,7 +4264,7 @@ input::placeholder {
 
 	border-bottom: 1px solid rgb(228 228 228 / 0%);
 
-	
+
     background-clip: border-box;
 
 
@@ -5281,7 +5282,7 @@ input::placeholder {
 	}
 
 
-	
+
 
 
 	.wrapper.toggled .sidebar-wrapper {
@@ -5301,7 +5302,7 @@ input::placeholder {
 
 	}
 
-	
+
 	.wrapper.toggled .overlay {
 
 

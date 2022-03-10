@@ -16,5 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('admin.index');
 });
+Route::get('/category', function () {
+    return view('admin.product_manager.categories');
+});
 
 require __DIR__.'/auth.php';
